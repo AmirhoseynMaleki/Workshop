@@ -1,0 +1,197 @@
+body {
+  padding: 0 60px;
+}
+
+header {
+  background-color: #23222a;
+  border-radius: 0 0 20px 20px;
+  justify-content: space-between;
+  padding: 0 25px;
+  height: 80px;
+  align-items: center;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav a {
+  margin-left: 20px;
+  padding: 5px 15px;
+}
+
+header nav a:first-child {
+  margin: 0;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.logo span {
+  background-color: red;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  position: relative;
+  top: 3px;
+  border-radius: 50%;
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  position: absolute;
+  border-bottom: 2px solid red;
+  bottom: 0;
+  left: 13px;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.ax {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.leftBottom,
+.rightBottom {
+  height: 400px;
+
+}
+
+.leftBottom {
+  position: relative;
+  width: 75%;
+  padding-left: 55px;
+  padding-top: 50px;
+}
+
+.leftBottom h1 {
+  padding-top: 25px;
+  font-size: 45px;
+}
+
+.leftBottom .comment {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  width: 250px;
+
+}
+
+.comment {
+  font-size: small;
+}
+
+.rightBottom {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+h1 span {
+  color: #FB5729;
+}
+
+.bars {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 370px;
+  height: 60px;
+  margin-top: 25px;
+}
+
+.Search {
+  background-color: #4E966E;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.Search button {
+  float: left;
+  width: 35px;
+  height: 29px;
+  background-color: #4E966E;
+  border: 0;
+
+}
+
+.Search button img {
+  width: 20px;
+  height: 20px;
+}
+
+::placeholder {
+  color: whitesmoke;
+}
+
+.Search input {
+  background-color: #4E966E;
+  color: whitesmoke;
+  border: 0;
+  width: 120px;
+  margin-left: 3px;
+}
+
+.how {
+  position: absolute;
+  left: 220px;
+}
+
+.how span img {
+  background-color: white;
+  padding: 7px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.how span {
+  display: flex;
+  background-color: #FB5729;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.bars p {
+  position: absolute;
+  right: 1px;
+}
+
+.picture {
+  position: absolute;
+  left: 500px;
+  top: 50px;
+  width: 400px;
+}
+
+.picture img {
+  width: 100%;
+}
+
+.rightBottom div::before {
+
+}
